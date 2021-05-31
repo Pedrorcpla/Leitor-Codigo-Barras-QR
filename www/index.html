@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="components/Plugins.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row bg-success text-white topo fixed-top">
+      <div class="col-12" align="center">
+        <h1>Leitor de barras e QR</h1>
+      </div>
+    </div> 
+    <div class="row conteudo">
+      <div class="col-10 offset-1 bg-white">
+        <br>
+        <h2>Escaneie algum código:</h2>
+        <p id="info">Escaneie algum código para saber o resultado...</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1  border-bottom border-success border-2 espaco">
+        <button class="btn btn-primary col-12" id="codigo">Escanear</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-10 offset-1" align='center'>
+        <h3>Como funciona?</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <p>Para conseguir ler o código basta clicar em "Escanear" e mirar a câmera do celular no código desejado.</p>
+        <p>Esse app escaneia os códigos: QR_CODE, PDF_417, CODE_39, DATA_MATRIX, UPC_A, UPC_E, EAN_8, EAN_13, CODE_93, CODE_128, CODABAR, ITF, RSS14 e AZTEC.</p>
+      </div>
+    </div>
+    <br>
+  </div>
+</body>
+</html>
